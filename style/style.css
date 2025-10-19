@@ -48,10 +48,12 @@
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
+    cursor:pointer;
     transition: background 0.3s ease;
 }
 .btn:hover{
     background-color: #110cb1;
+    cursor:pointer;
 }
 
 
@@ -77,6 +79,7 @@
     border: none;
     border-radius: 10px;
     display: flex;
+    cursor: pointer;
     margin: 40px auto 100px auto;
     transition: background 0.3s ease;
 }
@@ -125,6 +128,7 @@
     padding: 12px 46px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
     transition: background 0.3s ease;
 }
 .action-btn:hover{
@@ -203,6 +207,7 @@
   max-width: 320px;
   text-align: left;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .review-card:hover {
@@ -295,6 +300,7 @@
     display: flex;
     margin: 0 auto 20px auto;
     transition: background 0.3s ease;
+    cursor: pointer;
 }
 .focus-btn:hover{
     background-color: #110cb1;
@@ -353,6 +359,7 @@
     border: none;
     border-radius: 10px;
     transition: background 0.3s ease;
+    cursor: pointer;
 }
 .contact-btn:hover{
     background-color: #110cb1;
@@ -399,4 +406,14 @@
 
 .footer-nav a:hover {
   color: #4f46e5;
+}
+
+/* For tablets (min-width: 600px) */
+@media (min-width: 600px) {
+  .action {
+    flex-direction:;
+  }
+  .action-image{
+    order
+  }
 }
