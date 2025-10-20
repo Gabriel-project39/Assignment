@@ -409,11 +409,20 @@
 }
 
 /* For tablets (min-width: 600px) */
-@media (min-width: 600px) {
+@media (max-width: 1024px) {
   .action {
-    flex-direction:;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+  }
+  .action-text{
+    order:1;
+    width:100%;
+    margin-bottom:20px;
+    
   }
   .action-image{
-    order
+    order:2;
+    width:100%;
   }
 }
